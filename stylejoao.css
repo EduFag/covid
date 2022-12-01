@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0 auto;
+
+
+}
+
+header{
+    padding: 30px;
+}
+
+.flag{
+    width: 45px;
+    height: 45px;   
+
+}
+
+.dados li{
+    margin-left: 5px;
+}
+
+
+img{
+    width: 30px;
+    height: 20px;
+}
+
+h1{
+    text-align: center;
+    padding: 15px;
+    font-size: 45px;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+h2{
+    font-size: 30px;
+    margin: 10px;
+}
+
+p{
+    padding: 10px;
+}
+
+.dados{
+    text-align: start;
+    margin-left: 30px;
+}
+
+.atualizacao{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px;
+    margin-top: 6%;
+    margin: 5%;
+    text-align: center;
+    font-size: 30px;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;   
+    padding: 15px; 
+    
+}
+
+.item1{
+    background-color: cornflowerblue;
+    width: 450px;
+    height: 500px;
+    border: solid 5px cornflowerblue;
+    border-radius: 18px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+.item2{
+    width: 450px;
+    height: 500px;
+    border: solid 5px cornflowerblue;
+    border-radius: 18px;
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.item3{
+    width: 450px;
+    height: 500px;
+    border: solid;
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    border: solid 5px cornflowerblue;
+    border-radius: 18px  ;
+} 
+
+nav{
+    margin-left: 2%;
+}
+
+.nav li {
+    list-style: none;
+    display: inline;
+}
+
+.nav a {
+    float: left;
+    border-bottom: 15px solid lightgreen;
+    border-right: 15px solid white;
+    border-left: 15px solid white;
+    width: 23.3rem;
+    font-size: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    color: #333;
+    text-align: center;
+    padding: 0 0.2em 0.2em 0;
+    text-decoration: none;
+    padding: 23px;
+
+}
+
+.nav a:hover {
+    background-color: rgba(128,128,128,0.24);
+    color: rgb(16,170,221);
+    border-bottom: 15px solid rgb(16, 170, 221);
+    border-right: 15px solid rgba(128,128,128,0.24);
+    border-left: 15px solid rgba(128,128,128,0.24);
+}
+
+@media(max-width:760px) {
+    
+}
+
